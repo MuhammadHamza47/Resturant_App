@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+#home-bg {
+  height: 100vh;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: white !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#order-btn1 {
+  border-radius: 100px;
+  padding: 5px 40px;
   color: white;
+  background-color: #f64b3c;
+  border: none;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+#chef-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#order-btn2 {
+  border-radius: 100px;
+  border: none;
+  padding: 5px 40px;
+  color: #f64b3c;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+#big-bg {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#popular-bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#grp-7 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#update {
+  /* background-image: url(/Assets/Design.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#search {
+  background-color: #f64b3c;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 0px 100px 100px 0px;
+}
+#search-input {
+  border-radius: 100px 0px 0px 100px;
 }
